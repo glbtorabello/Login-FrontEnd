@@ -1,0 +1,16 @@
+ * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+      font-family: "Segoe UI", sans-serif;
+    }
+
+    body {
+      height: 100vh;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      background: linear-gradient(-45deg, #3b82f6, #9333ea, #10b981, #f59e0b);
+      background-size: 400% 400%;
+      animation: gradient 15s ease infinite;
+    }

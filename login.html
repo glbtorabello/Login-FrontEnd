@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>: Área de Login / Acesso do Usuário :</title>
+    <link rel="stylesheet" type="text/css" href="/assets/css/style.css"/>
+</head>
+<body>
+      <div class="login-box">
+        <img src="/assets/img/logo.png">
+    <h2>Login</h2>
+    <div class="input-group">
+      <input type="text" id="username" placeholder=" " required />
+      <label for="username">Usuário</label>
+    </div>
+    <div class="input-group">
+      <input type="password" id="password" placeholder=" " required />
+      <label for="password">Senha</label>
+    </div>
+    <button onclick="login()">Entrar</button>
+    <div class="mensagem-erro" id="error-msg">Preencha todos os campos.</div>
+  </div>
+  <script src="/assets/js/login.js"></script>
+</body>
+</html>
